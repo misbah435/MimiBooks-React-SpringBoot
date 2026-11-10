@@ -1,0 +1,32 @@
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# Java / Spring Boot
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Local database credentials
+backend/src/main/resources/application.properties
+
+# Environment files and logs
+.env
+.env.*
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+**/application.properties
+# Ignore accidental nested backend copy
+backend/backend/
+
+# Never upload local database credentials
+**/application.properties
